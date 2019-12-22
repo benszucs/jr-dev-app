@@ -9,6 +9,7 @@ const getAsync = promisify(client.get).bind(client);
 
 app.get('/jobs', async (req, res) => {
 	const jobs = await getAsync('github');
+	res.header("Access-Control-Allow-Origin", "http://localhost:3000");
 	return res.send(jobs);
 });
 
