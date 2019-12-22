@@ -1,0 +1,1 @@
+This video[https://www.youtube.com/watch?v=lauywdXKEXI] covers React front end w/ Hooks, Simple Node-Express API, Cron worker to fetch data, Simple filtering algorithm, Redis + node-redis, Deployment (NGINX on DigitalOcean droplet)
